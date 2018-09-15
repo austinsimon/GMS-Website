@@ -1,0 +1,128 @@
+$brand-orange: #ff7201;
+$brand-blue: #274287;
+$brand-grey: #393939;
+$brand-black: #000000;
+$brand-white: #ffffff;
+
+// For testing
+body {
+    height: 3000px;
+}
+
+.social-media-menu {
+    background-color: $brand-blue;
+    width: 100%;
+    height: 40px;
+    ul {
+        float: right;
+        margin: 6px 0 6px 0;
+        li {
+            display: inline-block;
+            line-height: 35px;
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 28px;
+            height: 28px;
+            a i {
+                color: white;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+.navbar {
+    background: transparent;
+    height: 70px;
+    width: 100%;
+    z-index: 10;
+    transition: background-color .5s;
+}
+
+.fixed-top {
+    background-color: $brand-grey;
+    transition: all .5s;
+}
+
+.nav-item {
+    margin-left: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $brand-white;
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: $brand-white;
+}
+
+.navbar-dark .navbar-nav .nav-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: $brand-blue;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  
+.logo {
+    max-width: 250px;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    background-color: $brand-blue;
+    position: absolute;
+    top: 40px;
+    overflow: hidden;
+    border-bottom: 5px solid $brand-orange;
+}
+
+.heroVideo {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 8;
+    width: 100%;
+    height: 100%;
+    background-color: $brand-grey;
+    opacity: .5;
+}
+
+.tagline {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    h1 {
+        position: relative;
+        color: $brand-white;
+        text-align: center;
+        top: 48%;
+        transform: translateY(-50%);
+        font-size: 4rem;
+        font-weight: 700;
+    }
+}
