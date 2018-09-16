@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="framework/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo:600|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Gator Motorsports</title>
 </head>
@@ -34,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">MEDIA</a>
@@ -64,6 +65,29 @@
         </div>
     </header>
 
+    <div class="page-content">
+        <div class="content-p">
+            <div class="container">
+                <h2>Design. Build. Race.</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis est orci. Proin nibh velit, mollis vitae feugiat condimentum, rutrum sed augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam cursus sit amet enim eget volutpat. Curabitur sit amet lectus faucibus, vehicula lectus quis, mollis est. Suspendisse at enim vitae massa bibendum feugiat. Fusce vestibulum nisi id ex condimentum placerat. Sed faucibus sapien eros, sed porta arcu vestibulum vitae. Ut non magna neque.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis est orci. Proin nibh velit, mollis vitae feugiat condimentum, rutrum sed augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam cursus sit amet enim eget volutpat. Curabitur sit amet lectus faucibus, vehicula lectus quis, mollis est. Suspendisse at enim vitae massa bibendum feugiat. Fusce vestibulum nisi id ex condimentum placerat. Sed faucibus sapien eros, sed porta arcu vestibulum vitae. Ut non magna neque. </p>     
+            </div>
+        </div>    
+
+        <div class="features"></div>
+
+        <div class="content-p" id="about">
+                <div class="container">
+                    <h2>About.</h2>
+                    <p> At Gator Motorsports, the opportunity to design, manufacture, and build a Formula-style racecar is more than just an extracurricular pursuit, it is a passion. Each May, Gator Motorsports competes against 120 teams from all over the world in the Formula Society of Automotive Engineers (FSAE) design competition in Michigan. This competition assesses the team’s ability to not only engineer and produce a reliable, high-performance vehicle, but also its ability to organize and manage a team to develop a feasible product for market. Our program provides students with the technical, teamwork, and project management skills required to transition seamlessly into careers in industry. </p>
+                    <p> Gator Motorsports is located in the MAE-C building on Gale Lemerand Drive, across from Gator Dining and East Hall. You can find the entrance to our shop next to the Gator Motorsports sign. Stop by and speak with some of our members on weekdays after 6:00 PM. Feel free to stop by anytime on weekends. </p>     
+                </div>
+            </div> 
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <script src="framework/js/bootstrap.min.js"></script>
 
     <script>
@@ -84,6 +108,24 @@
         } 
     
     </script>
+
+
+<script>
+    $(function () {
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - 50
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
 
 </body>
 

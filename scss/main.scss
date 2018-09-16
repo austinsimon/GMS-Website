@@ -4,9 +4,46 @@ $brand-grey: #393939;
 $brand-black: #000000;
 $brand-white: #ffffff;
 
-// For testing
+$border: 5px;
+
 body {
     height: 3000px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 36px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 28px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 24px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 .social-media-menu {
@@ -67,7 +104,7 @@ body {
     height: 5px;
     bottom: 0;
     left: 0;
-    background-color: $brand-blue;
+    background-color: $brand-orange;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -92,7 +129,7 @@ header {
     position: absolute;
     top: 40px;
     overflow: hidden;
-    border-bottom: 5px solid $brand-orange;
+    border-bottom: $border solid $brand-orange;
 }
 
 .heroVideo {
@@ -125,4 +162,25 @@ header {
         font-size: 4rem;
         font-weight: 700;
     }
+}
+
+.page-content {
+    top: 85vh;
+    position: absolute;
+    width: 100%;
+}
+
+.content-p {
+    padding: 40px 0 40px 0;
+}
+
+.features {
+    height: 500px;
+    // background-color: $brand-blue;
+    background-image: url('../img/team_photo.jpg');
+    background-size: cover;
+    background-position: center 58%;
+    width: 100%;
+    border-top: solid $border $brand-blue;
+    border-bottom: solid $border $brand-orange;
 }
