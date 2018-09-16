@@ -52,6 +52,16 @@ p {
     font-weight: 400;
 }
 
+a {
+    color: $brand-orange;
+    text-decoration: none;
+    &:hover {
+        opacity: .75;
+        color: $brand-orange;
+        text-decoration: none;
+    }
+}
+
 .social-media-menu {
     background-color: $brand-blue;
     width: 100%;
@@ -98,6 +108,9 @@ p {
     color: $brand-white;
     position: relative;
     text-decoration: none;
+    &:hover {
+        opacity: 1.0;
+    }
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -127,6 +140,10 @@ p {
   
 .logo {
     max-width: 250px;
+}
+
+.navbar-brand:hover {
+    opacity: 1.0;
 }
 
 header {
