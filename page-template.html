@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="framework/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo:600|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Gator Motorsports - </title>
+</head>
+
+<body>
+
+<div class="social-media-menu">
+    <div class="container">
+        <ul>
+            <li><a href="https://www.facebook.com/gatormotorsports"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com/gator.motorsports/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="mailto:uffsae@gmail.com"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark nav-alt" id="navbar">
+    <div class="nav-container">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" class="logo" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="media.html">MEDIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sponsors.html">SPONSORS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="join.html">JOIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/forum/">FORUM</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="page-intro">
+    <div class="page-title">
+        <h1>Page-Title</h1>   
+    </div>
+</div>
+
+<div class="container">
+    <div class="content-p">
+        <div class="row">
+            <div class="col">
+                <h2>This is a title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod distinctio nemo quidem amet recusandae quibusdam facere laboriosam? Possimus similique sapiente libero neque fuga minima quo pariatur beatae doloremque repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum soluta sequi odit optio tenetur maxime minus nostrum placeat, culpa deleniti omnis modi eum voluptates error, quasi, laborum doloremque. Voluptates, excepturi.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+        <footer>
+            <div class="content-p">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h6>Mailing Address</h6>
+                            <p>Attn: Gator Motorsports</p>
+                            <p>237 MAE-B</p>
+                            <p>University of Florida</p>
+                            <p>Gainesville, Florida 32611</p>
+                        </div>
+                        <div class="col">
+                            <h6>Shipping Address</h6>
+                            <p>Attn: Gator Motorsports</p>
+                            <p>133-134 MAE-C</p>
+                            <p>University of Florida</p>
+                            <p>Gainesville, Florida 32611</p>
+                        </div>
+                        <div class="col">
+                            <h6>Contact</h6>
+                            <p>Phone: (352) 392-7076</p>
+                            <p>Fax: (352) 392-1071</p>
+                            <p>Email: <a href="mailto:uffsae@gmail.com">uffsae@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <hr>
+                            <p class="copyright">Copyright © Gator Motorsports 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="framework/js/bootstrap.min.js"></script>
+
+    <script>
+
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+
+        var sticky = navbar.offsetTop;
+
+        function myFunction() 
+        {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("fixed-top")
+            } else {
+                navbar.classList.remove("fixed-top");
+            }
+        } 
+    
+    </script>
+
+</body>
+
+</html>

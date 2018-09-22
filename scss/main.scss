@@ -1,13 +1,12 @@
-$brand-orange: #ff7201;
-$brand-blue: #274287;
-$brand-grey: #393939;
+$brand-orange: rgb(255, 114, 1);
+$brand-blue: rgb(39, 66, 135);
+$brand-grey: rgb(57, 57, 57);
 $brand-black: #000000;
 $brand-white: #ffffff;
 
 $border: 0px;
 
 body {
-    height: 3000px;
     overflow-x: hidden;
     max-width: 100%;
 }
@@ -124,6 +123,11 @@ a {
     width: 100%;
     z-index: 10;
     transition: background-color .5s;
+    transition: position .5s;
+}
+
+.nav-alt {
+    background: $brand-grey;
 }
 
 .nav-container {
@@ -417,4 +421,66 @@ footer {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+}
+
+// Page - Template Styles
+
+.page-intro {
+    height: 35vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(204, 132, 72, .25), rgba(204, 132, 72, .25)), url('../img/header_img/about.jpg');
+    background-size: cover;
+    background-position: center 30%;
+    .page-title {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        h1 {
+            text-align: center;
+            color: $brand-white;
+        }
+    }
+}
+
+.join-intro {
+    background-image: linear-gradient(rgba(204, 132, 72, .25), rgba(204, 132, 72, .25)), url('../img/header_img/join.jpg');
+    background-position: center 60%;
+}
+
+.about-intro {
+    background-image: linear-gradient(rgba(204, 132, 72, .25), rgba(204, 132, 72, .25)), url('../img/header_img/about.jpg');
+}
+
+.media-intro {
+    background-image: linear-gradient(rgba(204, 132, 72, .25), rgba(204, 132, 72, .25)), url('../img/header_img/last.jpg');
+    background-position: center 45%;
+}
+
+.sponsors-intro {
+    background-image: linear-gradient(rgba(204, 132, 72, .25), rgba(204, 132, 72, .25)), url('../img/header_img/sponsors.jpg');
+    background-position: center 40%;
+}
+
+.page-content-norm {
+    top: 112px;
+    position: absolute;
+    width: 100%;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    margin-right: -4px;
+}
+
+.row-centered {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.sponsor img {
+    width: 155px;
+    height: auto;
 }

@@ -1,53 +1,52 @@
 /* line 9, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 body {
-  height: 3000px;
   overflow-x: hidden;
   max-width: 100%;
 }
 
-/* line 15, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 14, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 h1 {
   font-size: 44px;
   font-family: 'Exo', sans-serif;
   font-weight: 600;
 }
 
-/* line 21, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 20, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 h2 {
   font-size: 40px;
   font-family: 'Exo', sans-serif;
   font-weight: 600;
 }
 
-/* line 27, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 26, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 h3 {
   font-size: 36px;
   font-family: 'Exo', sans-serif;
   font-weight: 600;
 }
 
-/* line 33, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 32, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 h4 {
   font-size: 32px;
   font-family: 'Exo', sans-serif;
   font-weight: 600;
 }
 
-/* line 39, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 38, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 h5 {
   font-size: 28px;
   font-family: 'Exo', sans-serif;
   font-weight: 600;
 }
 
-/* line 45, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 44, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 h6 {
   font-size: 24px;
   font-family: 'Exo', sans-serif;
   font-weight: 600;
 }
 
-/* line 51, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 50, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 p {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -55,50 +54,50 @@ p {
 }
 
 @media (max-width: 992px) {
-  /* line 58, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 57, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   h1 {
     font-size: 40px;
   }
-  /* line 62, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 61, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   h2 {
     font-size: 36px;
   }
-  /* line 66, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 65, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   h3 {
     font-size: 32px;
   }
-  /* line 70, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 69, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   h4 {
     font-size: 28px;
   }
-  /* line 74, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 73, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   h5 {
     font-size: 24px;
   }
-  /* line 78, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 77, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   h6 {
     font-size: 20px;
   }
-  /* line 82, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 81, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   p {
     font-size: 16px;
   }
 }
 
-/* line 87, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 86, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 a {
   color: #ff7201;
   text-decoration: none;
 }
 
-/* line 90, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 89, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 a:hover {
   opacity: .75;
   color: #ff7201;
   text-decoration: none;
 }
 
-/* line 97, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 96, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .social-media-menu {
   background-color: #274287;
   width: 100%;
@@ -107,13 +106,13 @@ a:hover {
   z-index: 9;
 }
 
-/* line 103, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 102, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .social-media-menu ul {
   float: right;
   margin: 6px 0 6px 0;
 }
 
-/* line 106, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 105, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .social-media-menu ul li {
   display: inline-block;
   line-height: 35px;
@@ -123,22 +122,28 @@ a:hover {
   height: 28px;
 }
 
-/* line 113, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 112, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .social-media-menu ul li a i {
   color: white;
   font-size: 25px;
 }
 
-/* line 121, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 120, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .navbar {
   background: transparent;
   height: 70px;
   width: 100%;
   z-index: 10;
   transition: background-color .5s;
+  transition: position .5s;
 }
 
 /* line 129, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.nav-alt {
+  background: #393939;
+}
+
+/* line 133, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .nav-container {
   width: 100%;
   padding-right: 15px;
@@ -148,38 +153,38 @@ a:hover {
 }
 
 @media (min-width: 576px) {
-  /* line 138, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 142, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .nav-container {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 144, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 148, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .nav-container {
     max-width: 720px;
   }
 }
 
 @media (max-width: 991px) {
-  /* line 150, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 154, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .fixed-top {
     position: relative;
     top: 0;
     z-index: 10;
   }
-  /* line 155, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 159, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .nav-container {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
   }
-  /* line 161, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 165, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .navbar {
     background: #393939;
   }
-  /* line 164, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 168, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .navbar-collapse {
     background-color: #ff7201;
     margin-top: -3px;
@@ -191,25 +196,25 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-  /* line 175, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 179, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .nav-container {
     max-width: 960px;
   }
-  /* line 179, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 183, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .navbar-expand-lg > .nav-container {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-  /* line 184, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 188, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .fixed-top {
     background-color: #393939;
     transition: all .5s;
   }
-  /* line 189, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 193, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .navbar-dark .navbar-nav .nav-link:hover {
     color: #ffffff;
   }
-  /* line 193, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 197, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .navbar-dark .navbar-nav .nav-link:before {
     content: "";
     position: absolute;
@@ -224,7 +229,7 @@ a:hover {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  /* line 208, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 212, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .navbar-dark .navbar-nav .nav-link:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
@@ -233,13 +238,13 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
-  /* line 216, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 220, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .nav-container {
     max-width: 1140px;
   }
 }
 
-/* line 221, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 225, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .navbar > .nav-container {
   display: -ms-flexbox;
   display: flex;
@@ -251,12 +256,12 @@ a:hover {
   justify-content: space-between;
 }
 
-/* line 232, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 236, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .nav-item {
   margin-left: 25px;
 }
 
-/* line 236, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 240, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .navbar-dark .navbar-nav .nav-link {
   font-size: 1.2rem;
   font-family: 'Exo', sans-serif;
@@ -266,22 +271,22 @@ a:hover {
   text-decoration: none;
 }
 
-/* line 243, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 247, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .navbar-dark .navbar-nav .nav-link:hover {
   opacity: 1.0;
 }
 
-/* line 248, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 252, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .logo {
   max-width: 250px;
 }
 
-/* line 252, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 256, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .navbar-brand:hover {
   opacity: 1.0;
 }
 
-/* line 256, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 260, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 header {
   width: 100%;
   height: 80vh;
@@ -292,7 +297,7 @@ header {
   border-bottom: 0px solid #ff7201;
 }
 
-/* line 266, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 270, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .heroVideo {
   width: 110%;
   position: absolute;
@@ -302,7 +307,7 @@ header {
 }
 
 @media (max-width: 1190px) {
-  /* line 275, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 279, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .heroVideo {
     width: 150%;
     left: -25%;
@@ -310,7 +315,7 @@ header {
 }
 
 @media (max-width: 895px) {
-  /* line 282, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 286, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .heroVideo {
     width: 170%;
     left: -35%;
@@ -318,19 +323,19 @@ header {
 }
 
 @media (max-width: 767px) {
-  /* line 289, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 293, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .heroVideo {
     width: 220%;
     left: -60%;
   }
-  /* line 293, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 297, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   header {
     height: 60vh;
   }
 }
 
 @media (max-width: 592px) {
-  /* line 299, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 303, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .heroVideo {
     width: 275%;
     left: -87.5%;
@@ -338,14 +343,14 @@ header {
 }
 
 @media (max-width: 480px) {
-  /* line 306, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 310, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .heroVideo {
     width: 320%;
     left: -110%;
   }
 }
 
-/* line 312, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 316, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .overlay {
   position: absolute;
   z-index: 8;
@@ -355,7 +360,7 @@ header {
   opacity: .5;
 }
 
-/* line 321, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 325, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .tagline {
   position: relative;
   width: 100%;
@@ -363,7 +368,7 @@ header {
   z-index: 9;
 }
 
-/* line 326, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 330, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .tagline h1 {
   position: relative;
   color: #ffffff;
@@ -375,13 +380,13 @@ header {
 }
 
 @media (max-width: 991px) {
-  /* line 338, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 342, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .tagline h1 {
     font-size: 3rem;
   }
 }
 
-/* line 343, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 347, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .page-content {
   top: 85vh;
   position: absolute;
@@ -389,18 +394,18 @@ header {
 }
 
 @media (max-width: 767px) {
-  /* line 350, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  /* line 354, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
   .page-content {
     top: 65vh;
   }
 }
 
-/* line 355, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 359, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .content-p {
   padding: 40px 0 40px 0;
 }
 
-/* line 359, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 363, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .features {
   height: 500px;
   background-image: url("../img/team_photo.jpg");
@@ -411,7 +416,7 @@ header {
   border-bottom: solid 0px #ff7201;
 }
 
-/* line 369, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 373, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .google-map {
   width: 100%;
   height: 500px;
@@ -420,7 +425,7 @@ header {
   border-bottom: solid 0px #ff7201;
 }
 
-/* line 377, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 381, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .media-photo {
   width: 100%;
   height: 500px;
@@ -432,19 +437,19 @@ header {
   border-bottom: solid 0px #ff7201;
 }
 
-/* line 388, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 392, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .elite-sponsors {
   width: 100%;
   height: auto;
   background-color: #274287;
 }
 
-/* line 392, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 396, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .elite-sponsors .content-p {
   opacity: .5;
 }
 
-/* line 397, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 401, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 footer {
   width: 100%;
   height: auto;
@@ -453,23 +458,96 @@ footer {
   text-align: center;
 }
 
-/* line 406, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 410, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 footer p {
   margin-bottom: 0px;
   font-size: 16px;
 }
 
-/* line 410, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 414, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 footer .copyright {
   font-size: 14px;
 }
 
-/* line 414, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 418, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 footer hr {
   width: 100%;
   border: solid 0.2px #ffffff;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+/* line 428, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.page-intro {
+  height: 35vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/header_img/about.jpg");
+  background-size: cover;
+  background-position: center 30%;
+}
+
+/* line 434, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.page-intro .page-title {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+/* line 439, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.page-intro .page-title h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 446, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.join-intro {
+  background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/header_img/join.jpg");
+  background-position: center 60%;
+}
+
+/* line 451, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.about-intro {
+  background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/header_img/about.jpg");
+}
+
+/* line 455, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.media-intro {
+  background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/header_img/last.jpg");
+  background-position: center 45%;
+}
+
+/* line 460, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.sponsors-intro {
+  background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/header_img/sponsors.jpg");
+  background-position: center 40%;
+}
+
+/* line 465, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.page-content-norm {
+  top: 112px;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 471, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: center;
+  margin-right: -4px;
+}
+
+/* line 478, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.row-centered {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+/* line 483, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.sponsor img {
+  width: 155px;
+  height: auto;
 }
 
 /*# sourceMappingURL=../css/main.map */
