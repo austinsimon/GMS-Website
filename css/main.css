@@ -555,4 +555,32 @@ footer hr {
   height: auto;
 }
 
+/* line 493, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.btn-primary {
+  background: #ff7201;
+  border-color: #ff7201;
+}
+
+/* line 496, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.btn-primary:hover {
+  background: #ff7201;
+  border-color: #ff7201;
+}
+
+/* line 502, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.headshot img {
+  width: 250px;
+  height: auto;
+  border-radius: 100%;
+  border: double 6px #393939;
+}
+
+/* line 509, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.details-block {
+  margin-top: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=../css/main.map */

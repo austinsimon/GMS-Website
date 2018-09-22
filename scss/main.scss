@@ -489,3 +489,26 @@ footer {
         height: auto;
     }
 }
+
+.btn-primary {
+    background: $brand-orange;
+    border-color: $brand-orange;
+    &:hover {
+        background: $brand-orange;
+        border-color: $brand-orange;
+    }
+}
+
+.headshot img {
+    width: 250px;
+    height: auto;
+    border-radius: 100%;
+    border: double 6px $brand-grey;
+}
+
+.details-block {
+    margin-top: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
