@@ -544,7 +544,12 @@ footer hr {
   padding: 10px 0 10px 0;
 }
 
-/* line 483, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 484, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.sponsor a:hover {
+  opacity: 1.0;
+}
+
+/* line 487, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .sponsor img {
   width: 155px;
   height: auto;
