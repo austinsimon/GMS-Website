@@ -583,4 +583,14 @@ footer hr {
   margin-right: auto;
 }
 
+/* line 514, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.details-block h4 {
+  font-size: 18px;
+}
+
+/* line 517, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.details-block p {
+  font-size: 14px;
+}
+
 /*# sourceMappingURL=../css/main.map */
