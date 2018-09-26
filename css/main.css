@@ -572,7 +572,7 @@ footer hr {
   width: 250px;
   height: auto;
   border-radius: 100%;
-  border: double 6px #393939;
+  border: double 6px #274287;
 }
 
 /* line 509, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
@@ -591,6 +591,11 @@ footer hr {
 /* line 517, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .details-block p {
   font-size: 14px;
+}
+
+/* line 522, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.card-img-top {
+  max-height: 165px;
 }
 
 /*# sourceMappingURL=../css/main.map */

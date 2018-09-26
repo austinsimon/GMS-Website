@@ -503,7 +503,7 @@ footer {
     width: 250px;
     height: auto;
     border-radius: 100%;
-    border: double 6px $brand-grey;
+    border: double 6px $brand-blue;
 }
 
 .details-block {
@@ -517,4 +517,8 @@ footer {
     p {
         font-size: 14px;
     }
+}
+
+.card-img-top {
+    max-height: 165px;
 }
