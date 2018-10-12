@@ -361,10 +361,20 @@ header {
 }
 
 .features {
-    height: 500px;
-    background-image: url('../img/team_photo.jpg');
+    height: 700px;
+    background-image: url('../img/header_img/about.jpg');
     background-size: cover;
-    background-position: center 58%;
+    background-position: center 40%;
+    width: 100%;
+    border-top: solid $border $brand-blue;
+    border-bottom: solid $border $brand-orange;
+}
+
+.team {
+    height: 700px;
+    background-image: url('../img/team2019/team2019.jpg');
+    background-size: cover;
+    background-position: center 40%;
     width: 100%;
     border-top: solid $border $brand-blue;
     border-bottom: solid $border $brand-orange;
@@ -378,15 +388,36 @@ header {
     border-bottom: solid $border $brand-orange;
 }
 
-.media-photo {
-    width: 100%;
-    height: 500px;
-    background-image: url('../img/media.jpg');
+.media {
+    height: 700px;
+    background-image: url('../img/header_img/last.jpg');
     background-size: cover;
     background-position: center 40%;
+    width: 100%;
+    border-top: solid $border $brand-blue;
+    border-bottom: solid $border $brand-orange;
+}
+
+.sponsors {
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/sponsors.jpg');
+    background-size: cover;
+    background-position: center 30%;
     overflow: hidden;
     border-top: solid $border $brand-blue;
     border-bottom: solid $border $brand-orange;
+}
+
+.join {
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/header_img/join.jpg');
+    background-size: cover;
+    background-position: center 34%;
+    overflow: hidden;
+    border-top: solid $border $brand-blue;
+    border-bottom: solid $border $brand-orange;  
 }
 
 .elite-sponsors {
@@ -458,8 +489,8 @@ footer {
 }
 
 .sponsors-intro {
-    background-image: linear-gradient(rgba(204, 132, 72, .25), rgba(204, 132, 72, .25)), url('../img/header_img/sponsors.jpg');
-    background-position: center 40%;
+    background-image: linear-gradient(rgba(204, 132, 72, .25), rgba(204, 132, 72, .25)), url('../img/sponsors.jpg');
+    background-position: center 25%;
 }
 
 .page-content-norm {
@@ -499,11 +530,19 @@ footer {
     }
 }
 
-.headshot img {
-    width: 250px;
-    height: auto;
-    border-radius: 100%;
-    border: double 6px $brand-blue;
+.headshot {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: auto;
+        border-radius: 100%;
+        border: double 6px $brand-blue;
+    }
 }
 
 .details-block {
@@ -511,14 +550,27 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     h4 {
         font-size: 18px;
     }
     p {
         font-size: 14px;
     }
+    button {
+        margin-bottom: 40px;
+    }
 }
 
 .card-img-top {
     max-height: 165px;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .headshot img {
+        width: 200px;
+        height: auto;
+        border-radius: 100%;
+        border: double 6px $brand-blue;
+    }
 }

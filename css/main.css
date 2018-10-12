@@ -407,16 +407,27 @@ header {
 
 /* line 363, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .features {
-  height: 500px;
-  background-image: url("../img/team_photo.jpg");
+  height: 700px;
+  background-image: url("../img/header_img/about.jpg");
   background-size: cover;
-  background-position: center 58%;
+  background-position: center 40%;
   width: 100%;
   border-top: solid 0px #274287;
   border-bottom: solid 0px #ff7201;
 }
 
 /* line 373, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.team {
+  height: 700px;
+  background-image: url("../img/team2019/team2019.jpg");
+  background-size: cover;
+  background-position: center 40%;
+  width: 100%;
+  border-top: solid 0px #274287;
+  border-bottom: solid 0px #ff7201;
+}
+
+/* line 383, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .google-map {
   width: 100%;
   height: 500px;
@@ -425,31 +436,54 @@ header {
   border-bottom: solid 0px #ff7201;
 }
 
-/* line 381, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
-.media-photo {
-  width: 100%;
-  height: 500px;
-  background-image: url("../img/media.jpg");
+/* line 391, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.media {
+  height: 700px;
+  background-image: url("../img/header_img/last.jpg");
   background-size: cover;
   background-position: center 40%;
+  width: 100%;
+  border-top: solid 0px #274287;
+  border-bottom: solid 0px #ff7201;
+}
+
+/* line 401, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.sponsors {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/sponsors.jpg");
+  background-size: cover;
+  background-position: center 30%;
   overflow: hidden;
   border-top: solid 0px #274287;
   border-bottom: solid 0px #ff7201;
 }
 
-/* line 392, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 412, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.join {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/header_img/join.jpg");
+  background-size: cover;
+  background-position: center 34%;
+  overflow: hidden;
+  border-top: solid 0px #274287;
+  border-bottom: solid 0px #ff7201;
+}
+
+/* line 423, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .elite-sponsors {
   width: 100%;
   height: auto;
   background-color: #274287;
 }
 
-/* line 396, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 427, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .elite-sponsors .content-p {
   opacity: .5;
 }
 
-/* line 401, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 432, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 footer {
   width: 100%;
   height: auto;
@@ -458,18 +492,18 @@ footer {
   text-align: center;
 }
 
-/* line 410, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 441, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 footer p {
   margin-bottom: 0px;
   font-size: 16px;
 }
 
-/* line 414, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 445, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 footer .copyright {
   font-size: 14px;
 }
 
-/* line 418, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 449, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 footer hr {
   width: 100%;
   border: solid 0.2px #ffffff;
@@ -477,7 +511,7 @@ footer hr {
   margin-bottom: 40px;
 }
 
-/* line 428, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 459, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .page-intro {
   height: 35vh;
   width: 100%;
@@ -486,7 +520,7 @@ footer hr {
   background-position: center 30%;
 }
 
-/* line 434, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 465, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .page-intro .page-title {
   position: relative;
   top: 50%;
@@ -494,43 +528,43 @@ footer hr {
   width: 100%;
 }
 
-/* line 439, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 470, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .page-intro .page-title h1 {
   text-align: center;
   color: #ffffff;
 }
 
-/* line 446, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 477, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .join-intro {
   background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/header_img/join.jpg");
   background-position: center 60%;
 }
 
-/* line 451, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 482, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .about-intro {
   background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/header_img/about.jpg");
 }
 
-/* line 455, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 486, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .media-intro {
   background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/header_img/last.jpg");
   background-position: center 45%;
 }
 
-/* line 460, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 491, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .sponsors-intro {
-  background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/header_img/sponsors.jpg");
-  background-position: center 40%;
+  background-image: linear-gradient(rgba(204, 132, 72, 0.25), rgba(204, 132, 72, 0.25)), url("../img/sponsors.jpg");
+  background-position: center 25%;
 }
 
-/* line 465, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 496, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .page-content-norm {
   top: 112px;
   position: absolute;
   width: 100%;
 }
 
-/* line 471, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 502, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .col-centered {
   display: inline-block;
   float: none;
@@ -538,64 +572,90 @@ footer hr {
   margin-right: -4px;
 }
 
-/* line 478, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 509, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .row-centered {
   text-align: center;
   padding: 10px 0 10px 0;
 }
 
-/* line 484, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 515, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .sponsor a:hover {
   opacity: 1.0;
 }
 
-/* line 487, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 518, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .sponsor img {
   width: 155px;
   height: auto;
 }
 
-/* line 493, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 524, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .btn-primary {
   background: #ff7201;
   border-color: #ff7201;
 }
 
-/* line 496, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 527, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .btn-primary:hover {
   background: #ff7201;
   border-color: #ff7201;
 }
 
-/* line 502, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 533, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.headshot {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 537, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .headshot img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 250px;
   height: auto;
   border-radius: 100%;
   border: double 6px #274287;
 }
 
-/* line 509, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 548, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .details-block {
   margin-top: 15px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
-/* line 514, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 554, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .details-block h4 {
   font-size: 18px;
 }
 
-/* line 517, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 557, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .details-block p {
   font-size: 14px;
 }
 
-/* line 522, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+/* line 560, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+.details-block button {
+  margin-bottom: 40px;
+}
+
+/* line 565, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
 .card-img-top {
   max-height: 165px;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  /* line 570, /Users/simon/Documents/Development/Web Development/GMS Website/scss/main.scss */
+  .headshot img {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+    border: double 6px #274287;
+  }
 }
 
 /*# sourceMappingURL=../css/main.map */
